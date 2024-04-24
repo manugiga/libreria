@@ -30,7 +30,8 @@ include('C:\xampp\htdocs\libreria\Models\conexion.php');
         $detallesLibro .= "<p>Descripción: " . $row['descripcion'] . "</p>";
         $detallesLibro .= "<p>Tipo: " . $row['tipo'] . "</p>";
         $detallesLibro .= "<p>Precio: " . $row['precio'] . "</p>";
-        $detallesLibro .= "<a class='btn btn-primary' >Comprar Libro"."</a>";
+        $detallesLibro .= "<a class='btn btn-primary' onclick=\"window.location.href='/libreria/pago/formulariopago.php'\">Comprar Libro</a>";
+
 
         echo $detallesLibro;
     } else {
