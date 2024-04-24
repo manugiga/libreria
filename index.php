@@ -14,7 +14,7 @@ include('C:\xampp\htdocs\libreria\Views\header.php');
 <body>
 
 <div class="bienvenida"><br><br>
-    <h2>¡Bienvenid@ a nuestro rincón de lectores!</h2>
+    <h2>¡Bienvenid@ a nuestro rincón de lectores</h2>
 </div>
 <div class="index-container">
     <div>
