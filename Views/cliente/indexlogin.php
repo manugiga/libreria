@@ -21,11 +21,11 @@ include('C:\xampp\htdocs\libreria\Views\cliente\headerlogin.php');
 </div>
 <div class="index-container">
     <div>
-        <img src="/libreria/Assets/img/sharing.png" alt="" class="img"><br>
+        <img src="/libreria/Views/admin/crudlibros/img/sharing.png" alt="" class="img"><br>
         <button onclick="window.location.href = '/libreria/Views/admin/crudlibros/descargaslogin.php';">Gratis</button>
     </div>
     <div class="libro-index">
-        <img src="/libreria/Assets/img/sharing1.png" alt="" class="img1"><br>
+        <img src="/libreria/Views/admin/crudlibros/img/sharing1.png" alt="" class="img1"><br>
         <button onclick="window.location.href = '/libreria/Views/admin/crudlibros/compraslogin.php';">De Pago</button>   
     </div>
 </div>
