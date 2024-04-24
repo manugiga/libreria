@@ -1,0 +1,223 @@
+body{
+    background-color: #ffffff;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #dac5f7e2;
+  }
+  
+  .logo {
+    margin-right: 60%;
+    font-size: 50px;
+    font-family: cursive;
+  }
+  
+  
+  .user-actions a {
+    margin-left: 10px;
+  }
+
+  /* header-responsive */
+@media screen and (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    
+    .user-actions {
+      margin-top: 10px;
+    }
+  }
+
+  /*menu libros*/
+  .contenedor{
+    display: grid;
+    grid-template-columns:  25% 25% 25% 25%;
+    gap:0.5em;
+    justify-content: center;
+}
+
+.contenedor div p{
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contenedor div{
+    width:auto;
+    margin: 5%;
+    height: auto;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.contenedor div img{
+    width: auto;
+    height: 250px;
+}
+
+.contenedor button{
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    background-color: #651c7f;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.contenedor button:hover{
+    background-color: #000000 ;
+    color: white;
+}
+
+/*libros-responsive*/
+
+@media (max-width:600px) {
+
+    .contenedor{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    
+    .contenedor div{
+        width:auto;
+        height: auto;
+        background-color: #ffffff;
+        font-size: 15px;
+        
+    
+    }
+    
+    .contenedor div img{
+        width: auto;
+        height: 250px;
+        
+    }
+      
+    .contenedor div p{
+        font-weight: bold;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .contenedor button{
+        border-radius: 5px;
+        width: auto;
+        height: auto;
+        background-color: #651c7f;
+        border: none;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .contenedor button:hover{
+        background-color: #000000 ;
+        color: white;
+    }
+}
+.bienvenida{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: larger;
+  
+}
+
+.img{
+    width: 35vh;
+    height: 35vh;
+}
+
+.img1{
+    width: 35vh;
+    height: 35vh;
+}
+
+.index-container{
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns:  50% 50%;
+    gap:0.5em;
+    justify-content: center;
+    text-align: center;
+}
+
+.index-container div{
+    background-color: #c6e0fc;
+    border-radius: 5vh;
+    margin-inline: 100px;
+    height: 50vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.index-container button{
+    background-color: #5aa6d9;
+    width: 30vh;
+    height: 8vh;
+    border-radius:2vh;
+    color: #ffffff;
+    font-size: larger;
+    border: none;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+
+/* headeradmin */
+.navbar {
+    background-color: #e6d7fde2;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: cursive;
+  }
+  .navbar-brand {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .navbar-buttons {
+    display: flex;
+    gap: 20px;
+  }
+  .navbar-buttons a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .navbar-buttons a:hover {
+    background-color: #a7d1de;  
+  }
+
+  .tabla {
+    border: solid;
+    border-color: #004bbb;
+    color: #004bbb;
+    margin: 60px auto; 
+    width: 70vh;
+    height: 40vh;
+  }
+
+  .bienvenida-admin{
+    font-size: 30px;
+    text-align: center;
+    font-family: cursive;
+    margin-top: 10vh;
+    background-color: #95cbf0;
+    height: 50vh;
+    border-radius: 20%;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
